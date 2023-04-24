@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/quizGame/assets/css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Quiz Game</h1>
+      <form id="quiz-form">
+        <div class="question">
+          <h2>Question 1:</h2>
+          <p>What is the capital of France?</p>
+          <label><input type="radio" name="q1" value="a"> a) Madrid</label><br>
+          <label><input type="radio" name="q1" value="b"> b) Paris</label><br>
+          <label><input type="radio" name="q1" value="c"> c) Berlin</label><br>
+        </div>
+        <div class="question">
+          <h2>Question 2:</h2>
+          <p>What is the largest planet in our solar system?</p>
+          <label><input type="radio" name="q2" value="a"> a) Mars</label><br>
+          <label><input type="radio" name="q2" value="b"> b) Saturn</label><br>
+          <label><input type="radio" name="q2" value="c"> c) Jupiter</label><br>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="results"></div>
+    </div>
+  </body>
+
+    <script src="/quizGame/assets/Js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
